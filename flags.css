@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flags {
+    display: flex;
+    justify-content: space-around;
+    min-height: 18.7rem;
+    height: 50vh;
+    width: 100%;
+}
+
+.flag {
+    display: flex;
+    height: 100%;
+    aspect-ratio: 2/3;
+    justify-content: center;
+}
+
+.stripes {
+    display: flex;
+    height: 33%;
+    width: 85%;
+    box-shadow: silver 0 0 2em 0; 
+}
+
+.pole {
+    width: 0.5em;
+    background-color: silver;
+    border-radius: 6rem 0% 6rem 6rem;
+    box-shadow: silver 0 0 2em 0; 
+}
+
+/*=========== bel flag ===========*/
+
+.bel .stripes {
+    flex-direction: row;
+}
+.bel .start {
+    background-color: #000000;
+    width:34%;
+}
+.bel .middle {
+    background-color: #FDDA24;
+    width:34%;
+}
+.bel .last {
+    background-color: #EF3340;
+    width:34%;
+}
+
+
+/*=========== nld flag ===========*/
+
+.nld .stripes {
+    flex-direction: column;
+}
+.nld .start {
+    background-color: #A91F32;
+    height:34%;
+}
+.nld .middle {
+    background-color: #FFFFFF;
+    height:34%;
+}
+.nld .last {
+    background-color: #1E4785;
+    height:34%;
+}
+
+/*=========== lux flag ===========*/
+
+.lux .stripes {
+    flex-direction: column;
+}
+.lux .start {
+    background-color: #EF3340;
+    height:34%;
+}
+.lux .middle {
+    background-color: #FFFFFF;
+    height:34%;
+}
+.lux .last {
+    background-color: 	#00A3E0;
+    height:34%;
+}
